@@ -1,0 +1,199 @@
+/* ---------------------------header section(navbar)--------------------------- */
+
+.header {
+    height: 80px;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: #244441;
+}
+.header .logo{
+    height: 100%;
+    /* border: 1px solid red; */
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.header .logo .logo-img{
+    height: 60%;
+    /* border: 1px solid black; */
+    width: 80%;
+    
+}
+.header .logo .logo-img img{
+    height: 100%;
+    width: 100%;
+}
+.header .nav-link{
+    height: 100%;
+    /* border: 1px solid blue; */
+    width: 60%;
+}
+
+.header .nav-link .nav-ul-list{
+    list-style-type: none;
+    /* border: 1px solid black; */
+    margin: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .nav-link .nav-ul-list li{
+    /* border: 1px solid red; */
+    padding: 10px 50px;
+    
+}
+.header .nav-link .nav-ul-list li a{
+    /* border: 1px solid blue; */
+    color: #fff;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.header .login{
+    height: 100%;
+    /* border: 1px solid green; */
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}  
+.header .login button{
+    padding: 10px 40px;
+    background-color: #F7C35F;
+    color: #000;
+    border-radius: 5px;
+    border: none;
+}
+/* --------------------------bacjground----------------------------- */
+
+.background{
+    background: linear-gradient(rgba(0,0,0,0.1),#000), url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.background .banner-text{
+    color: #fff;
+    /* border: 1px solid red; */
+    margin: 0 0 0 80px;
+    line-height: 0.5;
+    width: fit-content;
+}
+.background .banner-text h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+   
+}
+.background .banner-text h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 55px;
+}
+.background .banner-text .first{
+    color: #F7C35F;
+}
+.background .banner-text p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.background .btn{
+
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin: 0 0 0 80px;
+
+}
+.background .btn button{
+    padding: 20px 30px;
+    background-color: #F7C35F;
+    border-radius: 8px;
+    border: none;   
+}
+/* ------------------------------farmer------------------- */
+
+.farmer{
+    height: 88vh;
+    border: 1px solid black;
+    background-color: #1d3133;
+    background-color: white;
+    position: relative;
+}
+.farmer .rec-design{
+    /* border: 1px solid red; */
+    height: 60%;
+    width: 35%;
+    z-index: 1;
+    position: absolute;
+    background-color: #244441;
+}
+.farmer .main-section{
+    /* border: px solid black; */
+    height: 83%;
+    width: 65%;
+    z-index: 3;
+    position: absolute;
+    left:156px;
+    top: 50px;
+    display: flex;
+    background-color: black;
+  
+}
+
+.farmer .main-section .img-section{
+    border: 1px solid red;
+    height: 100%;
+    width: 400px;
+    position: absolute;
+}
+/*
+.farmer .main-section .img-section .img{
+    border: 1px solid orange;
+    position: absolute;
+    right: 0;
+    width: 96%;
+    height: 91%;
+    z-index: 2;
+}
+.farmer .main-section .img img{ 
+    height: 100%;
+    width: 100%;
+}  
+.farmer .main-section .img-section .yollow-border{
+        height: 36%;
+        width: 5%;
+        border: 1px solid gold;
+        position: absolute;
+        z-index: 1;
+        bottom: 0;
+        margin: 0 0 70px 0;
+        border-radius: 4px;
+        background-color: #F7C35F;
+}
+.farmer .main-section .img-section .complete-project{
+    border: 1px solid green;
+    height: 90px;
+    width: 260px;
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    left: 80px;
+    border-radius: 9px;
+    background-color: #6D8C54;
+}*/
+
+.farmer .main-section .text-section{
+    border: 1px solid blue;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+    color: #fff;
+} 
